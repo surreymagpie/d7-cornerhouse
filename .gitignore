@@ -5,7 +5,13 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 
-# Ignore modules and themes downloaded with Drush
-sites/all/modules
-sites/all/themes
-sites/all/libraries
+# Ignore modules, themes and libraries
+sites/all/modules/*
+!sites/all/modules/.keep
+
+sites/all/themes/*
+!sites/all/themes/.keep
+
+sites/all/libraries/*
+!sites/all/libraries/.keep
+
